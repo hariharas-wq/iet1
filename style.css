@@ -1,0 +1,313 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-image: url('38.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+.btn{
+  background-color: white;
+  color: black;
+  border: 5px solid #4CAF50;
+}
+.navbar{
+  padding: .8rem;
+}
+.nav-link{
+  font-size: 1.1em !important;
+  font-family: cursive;
+  
+}
+
+.carousel-inner img{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 100%;
+   height: 50%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+.carousel-caption h1{
+  font-size: 200%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  font-family: cursive;
+
+}
+.us{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+  background-image: url('../img/17.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth;
+
+}
+.carousel-caption h3{
+  font-size: 100%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+  font-family: cursive;
+}
+
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 97%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+.align{
+  margin-left: 80px;
+}
+.card-title{
+  color: yellow;
+  font-family: cursive;
+  
+}
+.card-text{
+  color: orange;
+  font-family: cursive;
+  
+}
+.fo{
+  color: green;
+  font-family: cursive;
+}
+.dur{
+  text-align: center;
+  color: pink;
+  font-size: 40px;
+}
+
+
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.gif{
+  max-width: 100%;
+}
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+
+}
+.lead{
+  color: green;
+  font-family: cursive;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 2rem;
+}
+.fa-envelope{
+  color: red;
+}
+
+.fa-envelope:hover,{
+  color: #d5d5d5;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+  height: 100%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.hari{
+  color: yellow;
+  font-family: cursive;
+ 
+}
+.display-4{
+  color: yellow;
+  font-size: 40px;
+  
+
+}
+.ro{
+  color: yellow;
+  font-family: cursive;
+  
+}
+.ha{
+  color:orange;
+  font-family: cursive;
+  
+}
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  background-image: url('../img/4.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 65%;
+  background-position: center;
+  background-size: cover;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
